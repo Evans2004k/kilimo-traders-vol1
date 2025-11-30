@@ -1,0 +1,200 @@
+body{
+    display: grid;
+}
+/*------------header---------*/
+header{
+    background-color:rgb(227, 228, 227);
+    color:rgb(24, 173, 24);
+    display: flex;
+    justify-content: space-around;
+    
+}
+header img{
+    width: 3em;
+}
+#login-button button{
+    background-color: rgb(24, 173, 24) ;
+    color: white;
+    border-radius: 1em;
+    display: flex;
+    height: 50px;
+    margin: 10px;
+    border: 0px;
+    zoom: 80%;
+    
+
+
+}
+#login-button{
+    display: grid;
+    
+}
+
+/*------------session1 ----infor---------*/
+#session1{
+    justify-items: center;
+}
+#session1 button{
+    background-color: green;
+    color: white;
+    border-radius: 1em;
+    height: auto;
+    margin: 1em;
+    padding: 0.5em;
+    
+}
+#session1 button:hover{
+    color: black;
+    background-color: white;
+    transition: 500ms;
+}
+#session1 img{
+    zoom: 50%;
+    border-radius: 3rem;
+    margin-left: 2em;
+    margin-top: 2em;
+   
+}
+#container{
+    align-content: space-around;
+     justify-items: center;
+    
+}
+#left-row{
+    
+
+}
+
+
+/*------------session2 ----infor---------*/
+#session2{
+    justify-items: center;
+}
+.container1{
+    display: inline-flex;
+    justify-items: center;
+    align-content: space-between;
+    background-color: rgb(255, 247, 247);
+    
+}
+.container1:hover{
+    zoom: 110%;
+    transition: 10s;
+
+}
+
+#row1{
+    background-color: rgb(243, 242, 242);
+    border: 50px;
+    border-radius: 1em;
+    padding: 10px;
+    border-color: black;
+    margin: 10px;
+}
+#row2{
+    background-color: rgb(243, 242, 242);
+    border: 50px;
+    border-radius: 1em;
+    padding: 10px;
+    border-color: black;
+    margin: 10px;
+}
+#row3{
+    background-color: rgb(243, 242, 242);
+    border: 50px;
+    border-radius: 1em;
+    padding: 10px;
+    border-color: black;
+    margin: 10px;
+}
+#row4{
+    background-color: rgb(243, 242, 242);
+    border: 50px;
+    border-radius: 1em;
+    padding: 10px;
+    border-color: black;
+    margin: 10px;
+}
+/*----------------session3---------*/
+#session3{
+    justify-items: center;
+}
+#session3 img{
+    zoom: 80%;
+}
+
+
+/*...........footer...............*/
+footer{
+    justify-items: center;
+    background-color: hsl(130, 10%, 88%);
+
+}
+#footer-content{
+    display: flex;
+    
+}
+#Tab-links{
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 3em;
+    margin-right: 3em;
+
+}
+#Tab-links a{
+    text-decoration: none;
+
+}
+#Tab-links a:hover{
+    color: red;
+}
+.contact-details{
+    margin: 3em;
+}
+
+
+
+
+
+
+
+/*----------login page------------*/
+
+         form {
+            background: blue(0, 0, 0, 0.6);
+            padding: 20px;
+            width: 300px;
+            margin: 100px auto;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            background: rgb(24, 173, 24);
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #error {
+            color: red;
+            margin-top: 10px;
+        }
+        .login{
+            justify-items: center;
+        }
+        .login{
+            background-color: rgb(237, 240, 235);
+            border-radius: 1.2em;
+        }
